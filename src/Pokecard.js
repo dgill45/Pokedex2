@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import "./Pokecard.css"
 
-const POKE_API = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/"
+const POKE_API =
+ " https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/"
 
 
-class Pokecard extends Component(this.props){
+class Pokecard extends Component(){
 
     render(){
 
